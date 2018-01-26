@@ -1,0 +1,17 @@
+.widget-area{
+  background: #eee;
+}
+.hkex-widgets-section {
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  background: #eee;
+  padding: 30px;
+}
+
+.hkex-widgets-section::after {
+  clear: both;
+  content: "";
+  display: table;
+}

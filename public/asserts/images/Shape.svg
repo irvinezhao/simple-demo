@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="19px" viewBox="0 0 16 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portal-Dashboard-Specs" transform="translate(-3570.000000, -414.000000)" fill="#10416C">
+            <g id="Group-21-Copy" transform="translate(2641.000000, 382.000000)">
+                <g id="Group-12" transform="translate(31.000000, 0.000000)">
+                    <path d="M905.830657,50.8235294 C906.844036,50.8235294 907.673164,49.9764706 907.673164,48.9411765 L903.988149,48.9411765 C903.988149,49.9764706 904.817278,50.8235294 905.830657,50.8235294 L905.830657,50.8235294 Z M911.818806,45.1764706 L911.818806,40 C911.818806,37.1105882 909.856536,34.6917647 907.212538,34.0517647 L907.212538,33.4117647 C907.212538,32.6305882 906.595298,32 905.830657,32 C905.066016,32 904.448776,32.6305882 904.448776,33.4117647 L904.448776,34.0517647 C901.804778,34.6917647 899.842508,37.1105882 899.842508,40 L899.842508,45.1764706 L898,47.0588235 L898,48 L913.661314,48 L913.661314,47.0588235 L911.818806,45.1764706 L911.818806,45.1764706 Z" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

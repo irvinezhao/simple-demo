@@ -1,0 +1,129 @@
+.card {
+  display: inline-block;
+  float: left;
+  /** optional, better alignment for multi-row use cases -> or use flexbox */
+  background: #fff;
+  width: 375px;
+  height: 400px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .15), 0 0 4px 0 rgba(0, 0, 0, .2), 0 12px 12px 0 rgba(0, 0, 0, .15);
+  margin: 0 30px 30px 0;
+  transition: box-shadow .2s ease-in-out;
+}
+
+.card-title {
+  font-family: FSElliotPro-Bold;
+  font-size: 18px;
+  color: #13426B;
+  letter-spacing: 0;
+  line-height: 48px;
+  border-left: 5px red solid;
+  padding: 0 0 0 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card[draggable=true] {
+  cursor: move;
+}
+
+.card[draggable=false] {
+  cursor: not-allowed;
+}
+
+.card:hover {
+  box-shadow: 0 0 18px 0 rgba(0, 0, 0, .1), 0 0 36px 0 rgba(0, 0, 0, .15), 0 36px 36px 0 rgba(0, 0, 0, .2);
+}
+
+.card > img {
+  padding: 0;
+  margin: 0;
+}
+
+.card-text {
+  padding: .75rem;
+}
+
+.card-text > h3 {
+  margin: 0 0 .25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color .2s ease-in-out;
+}
+
+.card-text > h3:hover {
+  color: green;
+}
+
+.card-text > span {
+  margin: 0;
+  font-size: .8125rem;
+  line-height: 1rem;
+  font-weight: 200;
+}
+
+.card-placeholder {
+  position: fixed;
+  display: inline-block;
+  background: #ddd;
+}
+
+.card.moving {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0), 0 0 4px 0 rgba(0, 0, 0, 0), 0 12px 12px 0 rgba(0, 0, 0, 0);
+}
+
+.card-head {
+  background: #eee;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  font-family: Menlo, "Courier New";
+  position: relative;
+}
+
+.news {
+  position: relative;
+}
+
+.news-content {
+  padding-left: 20px;
+}
+
+.news-detail {
+  width: 333px;
+  font-size: 14px;
+  padding: 6px 50px 0 0;
+  line-height: 1.2rem;
+  background-position: 100% 18%;
+  background-repeat: no-repeat;
+  background-size: auto 1em;
+  border: 0;
+  color: #10416C;
+  outline: 0;
+  text-decoration: none;
+  display: inline-block;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAALCAYAAAC3ZUeVAAAAAXNSR0IArs4c6QAAALFJREFUCB1jeK7hfPqNjosmAxJgYmZkqv/95/+GTxrOwjBxJrHru7cxMTDM/MbAsOa/cRorSALIZ2AQv7G3j+E/w92XX+9MBfEZQQQIgFS9+HpnD+N/xnVwQZDES03nrH//GCLggi81nC3/MfxfzsbCYgs28522ixxIgJGRKUL4yq7HDK+0Q3leqDtdeKnuHA0yAgSY/v59u5CBkXGr+M29SyFCQPKllnPM////4WaDJADSIj29AEEbVQAAAABJRU5ErkJggg==');
+}
+
+
+.news-content:nth-child(even) {
+  background-color: #F2F6F8;
+}
+
+.news-content:first-child {
+  margin-top: 20px;
+}
+
+.news-date {
+  font-size: 11px;
+  padding: 4px 0 10px 0;
+  margin: 0;
+}
+
+/* .news-more {
+  position: absolute;
+  right: 20px;
+  top: 400px;
+} */
+
+

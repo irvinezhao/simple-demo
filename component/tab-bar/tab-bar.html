@@ -1,0 +1,50 @@
+<div class="main-board-section">
+	<ul class="nav nav-tabs" id="myTab" role="tablist">
+		<li class="nav-item">
+			<a class="nav-link active" id="mynotifications-tab" data-toggle="tab" href="#mynotifications" role="tab" aria-controls="mynotifications"
+			 aria-selected="true">Notifications</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="myreminders-tab" data-toggle="tab" href="#myreminders" role="tab" aria-controls="myreminders" aria-selected="false">Reminders</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" id="mytasks-tab" data-toggle="tab" href="#mytasks" role="tab" aria-controls="mytasks" aria-selected="false">Tasks</a>
+		</li>
+	</ul>
+	<div class="tab-content" id="myTabContent">
+		<div class="tab-pane fade show active" id="mynotifications" role="tabpanel" aria-labelledby="mynotifications-tab">
+			<table class="notification-table table">
+				<thead>
+					<tr>
+						<th scope="col">Type of Service</th>
+						<th scope="col">Content</th>
+						<th scope="col">Timestamp</th>
+						<th scope="col">Job Status</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="notification-table__row">
+						<th scope="row">Business Intelligence</th>
+						<td>Application / Change Request for Liquid Capital Apportionment </td>
+						<td>2 Hrs ago</td>
+						<td>Reject</td>
+					</tr>
+					<tr class="notification-table__row">
+						<th scope="row">Depository Services</th>
+						<td>Application / Change Request for Liquid Capital Apportionment </td>
+						<td>2 Hrs ago</td>
+						<td>Pending</td>
+					</tr>
+					<tr class="notification-table__row">
+						<th scope="row">Participantship Application</th>
+						<td>You have started filling the form: External Position Transfer Request, finish it now. </td>
+						<td>2 Hrs ago</td>
+						<td>Pending</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="tab-pane fade" id="myreminders" role="tabpanel" aria-labelledby="myreminders-tab">Reminders</div>
+		<div class="tab-pane fade" id="mytasks" role="tabpanel" aria-labelledby="mytasks-tab">Tasks</div>
+	</div>
+</div>

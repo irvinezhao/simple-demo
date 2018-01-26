@@ -1,0 +1,119 @@
+.navigation {
+  padding: 0;
+  font-size: 14px;
+  font-family: FSElliotPro-Bold, sans-serif;
+  background-color: #10416C;
+  font-weight: bold;
+}
+
+.navigation .logo {
+  border-bottom: 1px solid #5D7C9D;
+  margin: 0 20px;
+  height: 75px;
+  line-height: 75px;
+}
+
+.navigation .logo img {
+  height: 45px;
+}
+
+.navigation .nav-title {
+  margin: 30px 0;
+  font-size: 12px;
+  padding: 0;
+  letter-spacing: .41px;
+  text-transform: uppercase;
+
+}
+
+.navigation .nav .nav-link span {
+  font-size: 14px;
+  min-height: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.navigation .nav i {
+  display: inline-block;
+  height: 23px;
+  width: 23px;
+  background-size: 23px;
+  background-repeat: no-repeat;
+  margin: 0 15px -7px 0;
+}
+
+.dashboard {
+  background-image: url("../asserts/images/dashboard.png");
+}
+
+.general {
+  background-image: url("../asserts/images/general-services.png");
+}
+
+.csd {
+  background-image: url("../asserts/images/csd.png");
+}
+
+.risk {
+  background-image: url("../asserts/images/risk.png");
+}
+
+.collateral {
+  background-image: url("../asserts/images/collateral.png");
+}
+
+.download {
+  background-image: url("../asserts/images/downloads.png");
+}
+
+.technical {
+  background-image: url("../asserts/images/technical.png");
+}
+
+.settings {
+  background-image: url("../asserts/images/settings.png");
+}
+
+.navigation .nav .nav-item.active .nav-link {
+  border-left: 3px solid red;
+  background-color: #5D7C9D;
+}
+
+.navigation .nav .nav-item .nav-link:hover {
+  border-left: 3px solid red;
+  background-color: #5D7C9D;
+}
+
+.navigation .sub-nav {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #053258;
+}
+
+.navigation .nav .nav-item .nav-link{
+  border-left: 3px solid #10416c;
+  /* background-color: #053258; */
+}
+
+.navigation .nav .nav-item.active .sub-nav {
+  display: block;
+}
+
+.navigation .sub-nav .nav-item .nav-link span {
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: none;
+}
+
+.navigation .nav .nav-item.active .sub-nav .nav-link {
+  border-left: 3px solid red;
+  background-color: #053258;
+}
+
+.navigation .nav .nav-item.active .sub-nav .nav-link:hover {
+  border-left: 3px solid red;
+  background-color: #5D7C9D;
+}

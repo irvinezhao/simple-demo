@@ -1,0 +1,95 @@
+#footer {
+  padding: 0;
+}
+
+footer {
+  background-color: #10416C;
+  height: 182px;
+  padding-top: 58px;
+}
+
+.footer__logo {
+  margin-left: 44px;
+  display: inline-block;
+  width: 105px;
+  height: 49px;
+
+}
+
+.footer__logo img {
+  width: 105px;
+  height: 48px;
+
+}
+
+.footer__social-icons {
+  float: right;
+  margin: 0 44px 15px 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+.footer__social-icons li {
+  display: inline-block;
+  margin-left: 31px;
+}
+
+.footer__nav {
+  float: right;
+  list-style: none;
+  display: block;
+  margin: 0 44px 0 0;
+  padding: 0;
+
+}
+
+.footer__nav-item {
+  position: relative;
+  display: inline-block;
+
+}
+
+.footer__nav-item:last-child a {
+  border-right: none;
+  padding-right: 0;
+}
+
+.footer__nav-link {
+  font-size: .8125rem;
+  color: #d5e2e8;
+  font-weight: 400;
+  letter-spacing: .5px;
+  line-height: 2.31;
+  padding-left: 10px;
+  position: relative;
+  border-right: 1px solid #d5e2e8;
+  padding-right: 10px;
+  text-transform: capitalize;
+
+}
+
+.footer__nav-link:hover {
+  text-decoration: underline;
+  color: #d5e2e8;
+}
+
+.footer__nav-faq {
+  text-transform: uppercase;
+}
+
+.footer__privacy {
+  float: right;
+  color: #d5e2e8;
+  font-size: .75rem;
+  line-height: 2.5;
+  font-weight: 400;
+  letter-spacing: .5px;
+  margin: 0 44px 0 0;
+  padding: 0;
+
+}
+
+.footer__clearBoth {
+  clear: both;
+}

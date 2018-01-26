@@ -1,0 +1,358 @@
+#user-banner {
+  padding: 0;
+}
+
+.topbar {
+  background-color: #FFF;
+  font-family: FSElliotPro-Bold;
+  height: 77px;
+  border-bottom: 1px solid gray;
+  width: 100%;
+  margin: 0;
+}
+
+.topbar ul {
+  display: flex;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  height: inherit;
+}
+
+.topbar li {
+  display: list-item;
+  position: relative;
+  height: 100%;
+}
+
+.topbar__welcome-block {
+  width: 33%;
+}
+
+.welcome-text {
+  font-size: 21px;
+  font-weight: 600;
+  color: #10416C;
+  letter-spacing: 0;
+  margin: 25px 30px;
+}
+
+.topbar__information-block {
+  width: 42%;
+  font-size: 12px;
+  padding: 10px 0;
+  text-align: right;
+}
+
+.information-chart {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+.information-chart:last-child {
+  border-left: 1px solid #D1DDE6;
+}
+
+.small-chart-left,
+.small-chart-right {
+  display: inline-block;
+}
+
+.small-chart-left p {
+  margin: 0;
+}
+
+.stockname {
+  color: #10416C;
+}
+
+.stocknumber {
+  color: #567494;
+}
+
+.stockrate {
+  color: #567494;
+}
+
+.recent-rate {
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+.red-font {
+  color: #E72742;
+}
+
+.green-font {
+  color: rgb(78, 189, 78);
+}
+
+.small-chart-image {
+  height: 23px;
+  margin-left: 10px;
+}
+
+.topbar__search-block {
+  border-left: 1px solid #DADADA;
+  width: 5%;
+  min-width: 76px;
+}
+
+.search-icon {
+  cursor: pointer;
+  display: block;
+  background-image: url('../asserts/images/search.svg');
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+  margin: 27px;
+}
+
+.search-dropdown {
+  display: none;
+  width: 500px;
+  position: absolute;
+  left: -85px;
+}
+
+.search-input {
+  outline: none;
+  width: 100%;
+  height: 40px;
+  line-height: 24px;
+  padding-left: 45px;
+  border: 1px solid #dadada;
+  background: #fff url('../asserts/images/search.svg') no-repeat 10px center;
+  background-size: 18px 18px;
+  color: #10416c;
+  font-size: 14px;
+}
+
+.autocomplete-suggestions {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .15), 0 0 4px 0 rgba(0, 0, 0, .2), 0 12px 12px 0 rgba(0, 0, 0, .15);
+  height: 368px;
+  overflow-y: auto;
+  display: none;
+}
+
+.autocomplete-suggestion {
+  height: 40px;
+  border-bottom: 1px solid #dadada;
+  line-height: 40px;
+  font-size: 14px;
+  padding-left: 45px;
+  background: #fff url('../asserts/images/search.svg') no-repeat 10px center;
+  background-size: 18px 18px;
+}
+
+.autocomplete-suggestions::-webkit-scrollbar {
+  width: 5px;
+}
+
+.autocomplete-suggestions::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+.autocomplete-suggestions::-webkit-scrollbar-thumb {
+  background: #dadada;
+}
+
+.topbar__notification-block {
+  border-left: 1px solid #DADADA;
+  width: 5%;
+  min-width: 76px;
+}
+
+.notification-icon {
+  cursor: pointer;
+  display: block;
+  background-image: url('../asserts/images/Shape.svg');
+  background-size: 22px 22px;
+  width: 22px;
+  height: 22px;
+  margin: 27px;
+}
+
+.notification-dropdown {
+  position: absolute;
+  display: none;
+  z-index: 1000;
+  text-align: left;
+  font-size: 12px;
+  list-style: none;
+  background-color: #fff;
+  right: 0;
+  top: 76px;
+  border: 1px solid #DADADA;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .15), 0 0 4px 0 rgba(0, 0, 0, .2), 0 12px 12px 0 rgba(0, 0, 0, .15);
+}
+
+.notification-dropdown-arrow {
+  position: absolute;
+  top: -5px;
+  left: 90%;
+  margin-left: -2px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5px 5px 5px;
+  border-color: transparent transparent rgba(164, 164, 164, 1) transparent;
+}
+
+.notification-dropdown-item {
+  display: inline-block;
+  min-width: 420px;
+  text-decoration: none;
+  font-size: 14px;
+  padding-left: 45px;
+  background: #fff url('../asserts/images/search.svg') no-repeat 10px center;
+  background-size: 18px 18px;
+}
+
+.notification-dropdown-item:nth-child(n) {
+  border-left: 5px solid pink;
+}
+
+.notification-dropdown-item:nth-child(2n) {
+  border-left: 5px solid greenyellow;
+}
+
+.notification-dropdown-item p {
+  margin: 0;
+  line-height: 20px;
+}
+
+.notification-details-text {
+  padding-top: 10px;
+  padding-right: 10px;
+  color: #10416c;
+  font-size: 14px;
+}
+
+.notification-details-time {
+  padding-bottom: 10px;
+  color: #567494;
+  font-size: 12px;
+}
+
+.notification-details-link {
+  font-weight: 600;
+  color: #48A7D7;
+  text-decoration: underline;
+}
+
+.notification-view-more {
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  text-decoration: none;
+  color: #10416C;
+  background: url('../asserts/images/arrow-right.svg') no-repeat 85% center;
+  float: right;
+  padding-right: 30px;
+}
+
+.topbar__profile-block {
+  border-left: 1px solid #DADADA;
+  font-weight: 600;
+  width: 15%;
+  min-width: 236px;
+}
+
+.profile-left {
+  display: inline-block;
+  margin: 15px 10px 0 30px;
+}
+
+.profile-right {
+  display: inline-block;
+}
+
+.username {
+  font-size: 14px;
+  color: #10416C;
+}
+
+.department {
+  font-size: 14px;
+  color: #567494;
+  text-align: right;
+}
+
+.profile-image {
+  height: 40px;
+  margin: 0 0 20px;
+}
+
+.profile-more-details {
+  cursor: pointer;
+  float: right;
+  display: block;
+  background-image: url('../asserts/images/arrow-down.png');
+  background-size: 10px 5px;
+  width: 10px;
+  height: 5px;
+  margin: 20px 10px;
+}
+
+.profile-dropdown {
+  position: absolute;
+  z-index: 1000;
+  display: none;
+  text-align: left;
+  font-size: 12px;
+  list-style: none;
+  background-color: #fff;
+  right: 0;
+  top: 76px;
+  border: 1px solid #DADADA;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, .15), 0 0 4px 0 rgba(0, 0, 0, .2), 0 12px 12px 0 rgba(0, 0, 0, .15);
+}
+
+.profile-dropdown-arrow {
+  position: absolute;
+  top: -5px;
+  left: 82%;
+  margin-left: -2px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 5px 5px 5px;
+  border-color: transparent transparent rgba(164, 164, 164, 1) transparent;
+}
+
+.show {
+  display: block;
+}
+
+.profile-dropdown-item {
+  display: block;
+  height: 40px;
+  min-width: 233px;
+  line-height: 40px;
+  border-bottom: 1px solid #DADADA;
+  text-decoration: none;
+}
+
+.profile-dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.profile-dropdown-item span {
+  color: #10416C;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.profile-dropdown-item .settings-icon,
+.profile-icon,
+.signout-icon {
+  display: inline-block;
+  background-image: url('../asserts/images/search.svg');
+  background-size: 15px 15px;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px -3px 15px;
+}
